@@ -1,0 +1,125 @@
+
+body {
+  background-color: #f0f2f5;
+}
+
+    .login-card {
+      background-color: #fff;
+      padding: 40px 60px 40px 60px;
+      margin: -10% 50% 0;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 450px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    input {
+      width: 100%;
+      padding: 18px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #1877f2;
+      color: #fff;
+      padding: 20px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    #LogIn {
+      font-size: 32px;
+      padding: 10px;
+      font-weight: bold;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+    }
+
+    #LogIn:hover {
+      /* No changes on hover for the Log In button */
+    }
+
+    /* Styles for the "Create new account" button */
+    button#NewAccount {
+      font-size: 24px;
+      background-color: #36a420;
+      height: 60px;
+      width: 280px;
+      font-weight: bold;
+      padding: 10px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      text-decoration: none; /* Remove underline in the regular state */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    button#NewAccount:hover {
+      background-color: #1f6f13; /* Darker shade on hover for the Create new account button */
+      text-decoration: none; /* Remove underline on hover */
+    }
+
+    hr {
+      width: 100%;
+      border: 1px solid #ddd; /* Change this to the color you prefer */
+      margin: 10px 0; /* Adjust margin as needed */
+    }
+
+    h3 {
+      margin-top: 40px; /* Adjust margin as needed */
+      color: #1877f2;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    h3:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+
+    input::placeholder {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      opacity: 0.5;
+    }
+
+    input:focus {
+      border: 2px solid #007bff; /* Adjust the border color as needed */
+      outline: none; /* Remove the default outline */
+    }
+
+  .container p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: -200px 0 0 550px; /* top margin, auto right margin, no bottom margin, auto left margin */
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .container span {
+    cursor: pointer;
+    text-decoration: none; /* Remove underline in the regular state */
+    font-weight: bold; /* Make the text bold */
+  }
+
+  .container span:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+  .container p b {
+    font-weight: bold;
+  }
+
+  .container p:focus {
+    text-decoration: underline;
+  }
